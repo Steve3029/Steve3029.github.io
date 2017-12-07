@@ -1,0 +1,29 @@
+body {
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 25px;
+    line-height: 31px;
+}
+
+.intro {
+    float: left;
+    width: 68%;
+}
+
+.archive {
+    width: 28%;
+    float: right;
+}
+
