@@ -1,7 +1,9 @@
 body {
-    width: 90%;
-    margin: 0 auto;
-    font-family: 'Times New Roman', Times, serif;
+    background-color: #E6F2FF
+}
+
+h1, h2 {
+    font-family: 'Lato', sans-serif;
 }
 
 h1 {
@@ -13,7 +15,7 @@ h2 {
 }
 
 p {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 31px;
 }
 
