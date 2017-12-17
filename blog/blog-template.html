@@ -4,9 +4,90 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <title>Blog Template</title>
 </head>
 <body>
-  
+  <!-- heading -->
+  <div class="container">
+    <div class="row">
+      <!-- main blog title -->
+      <h1>Steve's Blog</h1>
+      <!-- subtitle -->
+      <p>This is a blog about technology, career, and life.</p>
+    </div>
+  </div>
+  <div class="container">
+    <!-- blog summaries and preview -->
+    <div class="two-thirds column">
+      <div class="row blog-content">
+        <h3>Here is Artile Title</h3>
+        <strong>11 Nov 2017</strong><br>
+        <p>
+          This is a example text. This is a example text. This is a example text. This is a example text. This is a example text. This is a example text. This is a example text. 
+          This is a example text. This is a example text. This is a example text. This is a example text. 
+        </p>
+        <p>
+          This is a example text. This is a example text. This is a example text. This is a example text. This is a example text. This is a example text. This is a example text. 
+          This is a example text. This is a example text. This is a example text. This is a example text. 
+        </p>
+        <p>
+          This is a example text. This is a example text. This is a example text. This is a example text. This is a example text. This is a example text. This is a example text. 
+          This is a example text. This is a example text. This is a example text. This is a example text. 
+        </p>
+        <hr>
+        <label for="leaveMsg">Message</label>
+        <textarea class="u-full-width" placeholder="Hi Please Leave Your Message …" id="commentMsg"></textarea>
+        <input class="button-primary" type="submit" value="Submit">
+      </div>
+    </div>
+    <!-- side nav -->
+    <div class="one-third column">
+      <div class="container">
+        <!-- search bar -->
+        <form action="#">
+          <div class="row">
+            <input class="u-full-width" type="text" placeholder="Search Blog.." id="seachtype">
+            <input class="button-primary" type="submit" value="Search">
+          </div>
+        </form>
+        <!-- catalogue nav -->
+        <div class="row">
+          <h4>Catalogue</h4>
+          <ul>
+            <li>
+              <a href="#">Technology</a>
+            </li>
+            <li>
+              <a href="#">Career</a>
+            </li>
+            <li>
+              <a href="#">Life</a>
+            </li>
+          </ul>
+        </div>
+        <!-- latest article nav -->
+        <div class="row">
+          <h4>Latest Articles</h4>
+          <ul>
+            <li>
+              <a href="blog/t2-html-css-dom-p2.html">My Second Blog about learning of HTML and CSS</a>
+            </li>
+            <li>
+              <a href="blog/t2-html-css-dom-p1.html">The Reflection of Udacity Lesson 1</a>
+            </li>
+            <li>
+              <a href="blog/c2-emotional-intelligence.html">What learnings did you take from the chapter?</a>
+            </li>
+            <li>
+              <a href="blog/cl-reflection-blog.html">My first blog after joning EDA</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
